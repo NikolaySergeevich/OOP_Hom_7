@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface ICalculableFactory {
+import java.io.IOException;
+
+public interface ICalculableFactory {
+    Calclable create(int primaryArgRe, int primaryArgIm) throws IOException;
 }
